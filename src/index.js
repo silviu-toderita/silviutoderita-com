@@ -30,7 +30,7 @@ function Header() {
     <Typography
       variant="h1"
       sx={{
-        color: '#b3dfd2',
+        color: '#ffffff',
         position: 'absolute',
         top: '100px',
         left: '10%',
@@ -62,7 +62,7 @@ function Bio() {
         fontFamily: "Roboto",
         fontSize: '1.2rem'
       }}>
-      Embedded software developer graduating from UBC in November 2023 with a Bachelor of Computer Science.
+      Embedded software in the Bachelor of Computer Science program at UBC, graduating November 2023.
       <br /><br />
       Actively pursuing full-time employment in embedded software, primarily in Vancouver, Canada.
       <br /><br />
@@ -71,7 +71,7 @@ function Bio() {
         href="https://www.linkedin.com/in/silviu-toderita/"
         startIcon={<LinkedInIcon />}
         sx={{ 
-          backgroundColor:'#b3dfd2',
+          backgroundColor:'#dddddd',
           color:'#003b68',
           width:'120px',
           margin: "20px" }}>
@@ -82,7 +82,7 @@ function Bio() {
         href="https://github.com/silviu-toderita"
         startIcon={<GitHubIcon />}
         sx={{ 
-          backgroundColor:'#b3dfd2',
+          backgroundColor:'#dddddd',
           color:'#003b68',
           width:'120px',
           margin: "20px" }}>
@@ -93,7 +93,7 @@ function Bio() {
         href="mailto:hello@silviutoderita.com"
         startIcon={<EmailIcon />}
         sx={{ 
-          backgroundColor:'#b3dfd2',
+          backgroundColor:'#dddddd',
           color:'#003b68',
           width:'120px',
           margin: "20px" }}>
